@@ -1,20 +1,21 @@
-<!--- I hate <details> -->
+<!--- I like <details> -->
 
-# Amethyst
-A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord theme](https://github.com/XuaTheGrate/Purplous 'Thanks, Maya and Equity!').
+# Polished Amethyst
+A calm, deep purple theme for Discord forked from [the Amethyst Discord theme](https://github.com/spinfish/amethyst 'Thanks, Spinfish!').
+This document contains original images from Spinfish for now till the theme is more updated.
 
 ![Main Preview](https://github.com/spinfish/images/blob/master/amethyst/preview_1.png)
 
 ## Installation
 <details> <!-- -------------------------- detail -------------------------- -->
   <summary>Powercord</summary>
-  <h4>To install Amethyst with Powercord</h4>
+  <h4>To install Polished Amethyst with Powercord</h4>
   <ul>
     <li>Navigate to your <code>powercord</code> folder</li>
     <li>Go to <code>src > Powercord</code> and right click <code>themes</code></li>
     <li>Select <code>Git Bash here</code> (as shown below) and then type</li>
   </ul>
-  <pre>git clone https://github.com/spinfish/amethyst</pre>
+  <pre>git clone https://github.com/devchagrins/polished-amethyst</pre>
   <details>
     <summary>Screenshot of <code>Git Bash here</code></summary>
     <img src="https://media.discordapp.net/attachments/678012423067926539/835658793253470308/git_bash_here.png">
@@ -22,8 +23,9 @@ A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord 
 </details>
 <details> <!-- -------------------------- detail -------------------------- -->
   <summary>BetterDiscord</summary>
-  <h4>To install Amethyst with BetterDiscord</h4>
+  <h4>To install Polished Amethyst with BetterDiscord</h4>
   <p>
+    <h2>There is no published BetterDiscord theme! But this are directions for the original Amethyst.</h2>
     For a direct download, click <a href="https://betterdiscord.app/Download?id=422">here</a>. If you don't want that, do the following:
   </p>
   <ul>
@@ -36,13 +38,13 @@ A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord 
 ## Special features
 <details> <!-- -------------------------- detail -------------------------- -->
   <summary>
-    Amethyst has a few special features up its sleeve for you to play around with!
+    Polished Amethyst has a few special features up its sleeve for you to play around with! These are originally linked back to the Amethyst theme by Spinfish and all credit goes to him. These might see some updates as Polished Amethyst is updated.
   </summary>
   <ul>
     <li> <!-- -------------------------- li -------------------------- -->
       <h3>Custom-made addons</h3>
       <p>
-        As of v1.4.0, Amethyst comes with custom-made addons which you can view in <a href="https://github.com/spinfish/amethyst/tree/master/extras">the extras folder</a>. To use one, simply paste the following CSS at the top of your Quick CSS file:
+        As of v1.0.0, Amethyst comes with custom-made addons which you can view in <a href="https://github.com/spinfish/amethyst/tree/master/extras">the extras folder</a>. To use one, simply paste the following CSS at the top of your Quick CSS file:
       </p>
       <pre><code>@import "https://spinfish.github.io/amethyst/extras/[ADDON-NAME-HERE].css";</code></pre>
       <details> <!-- -------------------------- detail -------------------------- -->
@@ -53,7 +55,7 @@ A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord 
         <summary><code>custom-hljs-styling</code> addon</summary>
         <h3></h3>
         <p>
-          As of v1.7.0, you can now customize Discord's codeblocks to your likings, Amethyst-style. Below are some pre-made colour schemes for you to enjoy. To use one, simply paste the code from your scheme of choice into your Quick CSS (make sure it's after the addon <code>@import</code>!).
+          As of v1.0.0, you can now customize Discord's codeblocks to your likings, Amethyst-style. Below are some pre-made colour schemes for you to enjoy. To use one, simply paste the code from your scheme of choice into your Quick CSS (make sure it's after the addon <code>@import</code>!).
         </p>
         <table>
           <tr>
@@ -110,14 +112,14 @@ A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord 
     <li> <!-- -------------------------- li -------------------------- -->
       <h3>Customizable margins and rounded corners</h3>
       <p>
-        As of v1.3.0, you can now customize Amethyst's spacing and corner roundness properties! Simply head over to your Quick CSS, paste the following CSS into it, then adjust each of the `VALUE`s to your likings:
+        As of v1.0.0, you can now customize Amethyst's spacing and corner roundness properties! Simply head over to your Quick CSS, paste the following CSS into it, then adjust each of the `VALUE`s to your likings:
       </p>
       <pre><code>:root { <!-- I'm sorry you have to see this monstrosity -->
   --amethyst-margin: `VALUE`px; /* Default spacing: 4px */
   --amethyst-radius: `VALUE`px; /* Default roundness: 10px */
 }</code></pre>
       <details>
-        <summary>Here's what Amethyst looks like with the margin property set to `8px` and the radius property to `0px`:</summary>
+        <summary>Here's what Polished Amethyst looks like with the margin property set to `8px` and the radius property to `0px`:</summary>
         <img src="https://github.com/spinfish/images/blob/master/amethyst/preview_margin_8px_radius_0px.png">
       </details>
     </li>
@@ -143,11 +145,8 @@ A calm, deep purple theme for Discord heavily inspired by [the Purplous Discord 
   <summary>Without these people this theme would never have been made 💙</summary>
   <br>
 
-  Huge thanks to **[Maya](https://github.com/XuaTheGrate)** and Equity for the original theme idea and variables, and to **[Daggy](https://github.com/Daggy1234)** for giving me the permission to take the theme's concept as my own. Also, thank you to the following people for their wonderful extras:
+  Shout out to all these people, without whom, this theme would not exist at all.
 
-  - **[NYRI4](https://github.com/NYRI4)** for [Discolored](https://github.com/NYRI4/Discolored)
-  - **[mr-miner1](https://github.com/mr-miner1)** for [Better Badges](https://github.com/mr-miner1/Better-Badges)
-  - **[Goose-Nest](https://github.com/Goose-Nest/)** for [RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
-  - **[CreArts Community](https://github.com/CreArts-Community)** for [Context Icons](https://github.com/CreArts-Community/Context-Icons)
+  - **[Spinfish](https://github.com/Spinfish)** for the [Amethyst](https://github.com/spinfish/amethyst) theme which this was originally spun off of
 
 </details>
