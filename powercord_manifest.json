@@ -1,8 +1,8 @@
 {
-  "name": "Amethyst",
-  "description": "A calm, deep purple theme for those seeking serenity.",
-  "version": "1.8.0",
-  "author": "legume#0173",
+  "name": "Polished Amethyst",
+  "description": "A calm, deep purple theme with some polish for those seeking serenity.",
+  "version": "1.0.0",
+  "author": "chagrins#1313",
   "theme": "_index.scss",
   "license": "MIT",
   "splashTheme": "splash.css"
