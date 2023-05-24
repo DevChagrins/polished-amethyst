@@ -1,7 +1,7 @@
 <!--- I like <details> -->
 
 # Polished Amethyst
-A calm, deep purple theme for Discord forked from [the Amethyst Discord theme](https://github.com/spinfish/amethyst 'Thanks, Spinfish!').
+A calm, deep purple polished theme for Discord, forked from [the Amethyst Discord theme](https://github.com/spinfish/amethyst 'Thanks, Spinfish!').
 This document contains original images from Spinfish for now till the theme is more updated.
 
 ![Main Preview](https://github.com/spinfish/images/blob/master/amethyst/preview_1.png)
